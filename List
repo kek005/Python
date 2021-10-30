@@ -1,0 +1,14 @@
+values = [2, 4, 'keke', 'key', "e"]
+print(values) # [2, 4, 'keke', 'key', 'e']
+print(values[2]) # keke
+values.insert(3, 58)
+print(values) # [2, 4, 'keke', 58, 'key', 'e']
+print(values[-1]) # e
+print(values[0]) # 2
+valeur = {2, 4, 'kiki', 'kay', "i"}
+print(valeur) # {2, 4, 'kay', 'i', 'kiki'}
+values.append("jesugnon")
+print(values) # [2, 4, 'keke', 58, 'key', 'e', 'jesugnon']
+values[4] = 'KEY'
+values[5] = 'E'
+print(values) # [2, 4, 'keke', 58, 'KEY', 'E', 'jesugnon']
