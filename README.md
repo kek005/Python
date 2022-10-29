@@ -1,2 +1,2 @@
-# Python-Learning-Path
-My Python learning journey
+# Python
+My Python
